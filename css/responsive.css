@@ -1,0 +1,319 @@
+@media screen and (min-width:992px) {
+
+}
+
+/* responsive code for tablet device */
+@media screen and (min-width:768px) and (max-width:991px) {
+
+    .container {
+        max-width: 100%;
+    }
+    /* hero area responsive  */
+    .isFocus .focusItem {
+        width: 100% !important;
+        height: 100%;
+    }
+    .demoG .focusIndicators {
+        height: auto;
+        width: 100%;
+        display: flex;
+    }
+    .demoG .focusIndicators a {
+        width: 100%;
+        height: auto;
+        margin: 0 4px;
+        border: none;
+        background: none;
+        padding: 0 10px;
+        border-radius: 10px;
+    }
+    .focusNext {
+        right: 0px;
+    }
+    .focusPrev {
+        left: 0px;
+    }
+    .product-details-sa h3 {
+        font-size: 31px;
+    }
+    .right-bg-rh {
+        display: none;
+    }
+    .brands-sa .names-sa span::before {
+        width: 35%;
+    }
+    .brands-sa .names-sa span::after {
+        width: 35%;
+    }
+    .footer-logo-rh img {
+        width: 100%;
+    }
+    .customer-opinion-rh {
+        padding: 20px 0px;
+    }
+    .faq-content-rh {
+        width: 100%;
+        margin: auto;
+    }
+    .treatment-tittle-rh, .testu-width-rh {
+        width: 100%;
+        margin: auto;
+    }
+   
+}
+
+
+/* responsive design for mobile device */
+@media screen and (max-width:767px) {
+    .container, .container-sm {
+        max-width: 100%;
+    }
+    
+    /* hero area responsive  */
+    .isFocus .focusItem {
+        width: 100% !important;
+        height: 100%;
+    }
+    .demoG .focusIndicators {
+        height: auto;
+        width: 100%;
+        display: flex;
+    }
+    .demoG .focusIndicators a {
+        width: 100%;
+        height: auto;
+        margin: 0 4px;
+        border: none;
+        background: none;
+        padding: 0 10px;
+        border-radius: 10px;
+    }
+    .focusNext {
+        right: 0px;
+    }
+    .focusPrev {
+        left: 0px;
+    }
+    .isFocus .focusArea {
+        height: 450px;
+    }
+    .focusItem img {
+        width: auto;
+        height: 425px;
+    }
+    .discount-sa {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100px;
+        height: 100px;
+    }
+    .product-item-sa {
+        margin-bottom: 20px;
+    }
+
+    .product-details-sa p {
+        font-size: 14px;
+    }
+    .product-details-sa h3 {
+        font-size: 25px;
+    }
+    .product-details-sa .price-sa span {
+        font-size: 20px;
+    }
+    .product-info-sa i {
+        font-size: 25px;
+    }
+    .product-info-sa p {
+        font-size: 16px;
+    }
+    .product-info-viwe .p-sa {
+        font-size: 16px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .quantity-field {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+    .action-button-sa img {
+        padding-top: 10px;
+    }
+    .brands-sa .names-sa span::before {
+        width: 10%;
+    }
+    .brands-sa .names-sa span::after {
+        width: 10%;
+    }
+
+    .morniga-content-sa h1 {
+        text-align: center;
+    }
+    .bjc-rh {
+        background-color: #E4F0DC;
+        padding-right: 5px !important;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        padding-left: 20px !important;
+    }
+    .bjc-rh h3 {
+        color: #202020;
+        font-size: 25px;
+        font-weight: 700;
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+    .bjc-rh p {
+        margin-left: 0px;
+    }
+    .sposobu-btn {
+        padding: 15px 10px;
+        margin-left: 0;
+    }
+   
+    .parzed-sr-items.text-center {
+        display: flex;
+        align-items: center;
+    }
+    .cu-text-sa {
+        text-align: initial;
+        padding-left: 20px;
+    }
+    .parzed-itemsOne-sa .parzed-sr-items h3 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .cs-p-sa {
+        margin-top: 25px;
+    }
+    .parzed-view-sa img {
+        padding: 30px 0;
+    }
+    .parzed-items-sa {
+        padding-top: 50px;
+    }
+
+
+    .week-count.cu-p-sa {
+        margin-top: 80px;
+    }
+    .week-count.cu-p-sa .count-number {
+        top: 90px;
+    }
+
+    .lost-ammount-rh {
+        padding-top: 30px;
+    }
+    .lost-img-rh.cu-p-sa {
+        padding-top: 40px;
+    }
+
+
+    .customer-opinion-rh {
+        padding: 30px 0;
+    }
+    .opinion-tittle h2 {
+        font-size: 25px;
+    }
+    .all-opinion {
+        margin-top: 45px;
+    }
+    .single-opinion.cu-p-sa {
+        margin-top: 40px;
+    }
+
+
+
+    .scale-identity {
+        text-align: center;
+        display: block !important;
+    }
+    .single-scale {
+        width: 100%;
+        padding: 13px;
+    }
+    .scale-desc-rh {
+        padding: 0;
+    }
+    .scale-desc-rh ol {
+        padding: 0;
+    }
+    .scale-desc-rh ol li {
+        color: #211E1C;
+        padding: 6px 0;
+    }
+
+    .treatment-tittle-rh h1 {
+        text-align: start;
+        padding: 0;
+    }
+    .original-price-content.text-center {
+        padding: 25px 0;
+    }
+
+    .morning-slim-product-rh p {
+        margin-top: 16px;
+        margin-bottom: 10px;
+    }
+    .morning-slim-product-rh p span {
+        font-size: 13px;
+    }
+    .morning-slim-product-rh h3 {
+        font-weight: 600;
+        font-size: 25px;
+    }
+    .offer-price-rh span {
+        font-size: 21px;
+    }
+    .main-price-rh span {
+        font-size: 20px;
+    }
+    .price-box-rh.media {
+        margin-bottom: 15px;
+    }
+    .morning-slim-product-rh ul li {
+        font-size: 16px;
+    }
+    .morning-slim-product-rh ul li i {
+        font-size: 24px;
+    }
+
+
+
+
+    #accordion-demo {
+        padding: 0;
+    }
+    .faq-content-rh h3 {
+        font-size: 25px;
+    }
+    .faq-area-rh {
+        padding-top: 30px;
+        padding-bottom: 50px;
+        background-color: #e4f0dc;
+    }
+    .accordionButton h2 {
+        font-size: 16px;
+        color: #000;
+        text-align: start;
+    }
+}
+
+@media screen and(max-width:575px){
+    .politika-rh {
+        text-align: center;
+        padding-top: 15px;
+    }
+    .contact-us-rh {
+        text-align: center;
+        padding: 15px 0;
+    }
+    .address-rh {
+        padding: 15px 0;
+        text-align: center;
+    }
+    .footer-logo-rh p {
+        text-align: center;
+    }
+}
